@@ -5,6 +5,9 @@ public class Main {
         System.out.println("Hello");
         System.out.println("world!");
         myFunction(100);
+
+        Circle c = new Circle();
+        c.display();
     }
     public static void myFunction(int x) {
         int y = x + 10;
